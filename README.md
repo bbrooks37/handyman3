@@ -14,19 +14,19 @@ To run this website locally, follow these steps:
 2. **Change directory to the backend:**
    cd backend
 
-3. **Start the server**
+3. **Start the server:**
     node server.cjs
 
-4. **Open a new terminal**
+4. **Open a new terminal:**
 
-5. **Change directory to the root of the project**
+5. **Change directory to the root of the project:**
    cd ..
 
-6. **Start the website**
+6. **Start the website:**
    npm run dev
    This will open the website in your default browser
 
-  **PROJECT STRUCTURE**
+  **PROJECT STRUCTURE:**
       backend: Contains the backend code (if applicable).
       src: Contains the React source code.
       public: Contains static assets (e.g., images, fonts)
