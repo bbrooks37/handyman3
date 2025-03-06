@@ -1,10 +1,34 @@
-# React + Vite
+# Handyman Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the code for a handyman website built with React and Vite.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this website locally, follow these steps:
 
->> npm install = node modules 
+1. **Clone the repository:**
+
+   ```bash
+   git clone <GitHub_repository_URL>
+
+2. **Change directory to the backend:**
+   ```cd backend
+
+3. **Start the server**
+   ``` node server.cjs
+
+4. **Open a new terminal**
+
+5. **Change directory to the root of the project**
+   ```cd ..
+
+6. **Start the website**
+   ```npm run dev
+   This will open the website in your default browser
+
+  **PROJECT STRUCTURE**
+  ``` backend: Contains the backend code (if applicable).
+      src: Contains the React source code.
+      public: Contains static assets (e.g., images, fonts)
+
+
