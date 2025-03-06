@@ -12,22 +12,22 @@ To run this website locally, follow these steps:
    git clone <GitHub_repository_URL>
 
 2. **Change directory to the backend:**
-   ```cd backend
+   cd backend
 
 3. **Start the server**
-   ``` node server.cjs
+    node server.cjs
 
 4. **Open a new terminal**
 
 5. **Change directory to the root of the project**
-   ```cd ..
+   cd ..
 
 6. **Start the website**
-   ```npm run dev
+   npm run dev
    This will open the website in your default browser
 
   **PROJECT STRUCTURE**
-  ``` backend: Contains the backend code (if applicable).
+      backend: Contains the backend code (if applicable).
       src: Contains the React source code.
       public: Contains static assets (e.g., images, fonts)
 
