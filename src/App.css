@@ -1,0 +1,394 @@
+/* Reset and Base Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* General Container Styles */
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.handyman-header {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+/* Navigation Bar Styles */
+.handyman-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation Link Styles */
+.handyman-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.handyman-nav a:hover {
+  color: #2980b9;
+}
+
+/* Navigation Logo Styles */
+.handyman-nav img {
+  max-height: 60px;
+  width: auto;
+}
+
+/* Header Heading Styles */
+.handyman-header h1 {
+  font-size: 2em;
+  color: #3498db;
+  margin-top: 10px;
+}
+
+/* Hero Section Styles */
+.handyman-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./BB handyman.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* Hero Content Styles */
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Hero Heading Styles */
+.hero-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Hero Paragraph Styles */
+.hero-content p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+/* Call-to-Action Button Styles */
+.cta-button {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+}
+
+/* Services Section Styles */
+.handyman-services {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+/* Services Heading Styles */
+.handyman-services h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #3498db;
+}
+
+/* Services Grid Styles */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Service Item Styles */
+.service-item {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Service Item Heading Styles */
+.service-item h3 {
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  color: #3498db;
+}
+
+/* Service Item Paragraph Styles */
+.service-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Call-to-Action Section Styles */
+.handyman-cta {
+  background-color: #e8f5e9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* CTA Heading Styles */
+.handyman-cta h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #27ae60;
+}
+
+/* CTA Paragraph Styles */
+.handyman-cta p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+/* Footer Styles */
+.handyman-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Footer Link Styles */
+.handyman-footer a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.handyman-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-content h2 {
+      font-size: 2em;
+  }
+
+  .handyman-services h2 {
+      font-size: 1.8em;
+  }
+
+  .services-grid {
+      grid-template-columns: 1fr;
+  }
+}
+
+/* Service Page Styles */
+.service-page {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Service Page Heading Styles */
+.service-page h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #3498db;
+}
+
+/* Service Page Paragraph Styles */
+.service-page p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Quote Button Styles */
+.quote-button {
+  background-color: #27ae60;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.quote-button:hover {
+  background-color: #219653;
+}
+
+/* Modal Styles */
+.ReactModal__Content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+}
+
+.ReactModal__Content h2 {
+  margin-top: 0;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Styles for the service details container */
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start */
+  gap: 20px; /* Add gap between items */
+}
+
+/* Styles for individual service items */
+.service-item-details {
+  width: 100%; /* Make each item take full width */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.service-price {
+  margin-bottom: 10px;
+}
+
+/* About Page Styles */
+.about-page {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content {
+  margin-bottom: 20px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.availability {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Contact Page Styles */
+.contact-page {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  background-color: #f9f9f9; /* Light background color */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info h3 {
+  color: #3498db; /* Blue heading color */
+  margin-bottom: 10px;
+}
+
+.contact-form-container {
+  margin-bottom: 30px;
+}
+
+.contact-form-container h3 {
+  color: #3498db; /* Blue heading color */
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.submit-button {
+  background-color: #3498db; /* Blue button color */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.submit-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.map-placeholder {
+  height: 300px;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.scheduling-link {
+  text-align: center;
+}
