@@ -23,7 +23,7 @@ To run this website locally, follow these steps:
    cd ..
 
 6. **Start the website:**
-   npm run dev
+   npm run dev -
    This will open the website in your default browser
 
   **PROJECT STRUCTURE:**
